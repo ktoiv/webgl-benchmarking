@@ -1,0 +1,28 @@
+{
+  "name": "mesh_bench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "@types/three": "^0.143.2",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.9.3",
+    "fs": "^0.0.1-security",
+    "three": "^0.144.0",
+    "three-gltf-exporter": "^0.0.1",
+    "vblob": "^1.0.2",
+    "web-ifc": "^0.0.36"
+  }
+}

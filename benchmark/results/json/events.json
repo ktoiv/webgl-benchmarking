@@ -1,0 +1,94 @@
+[
+    {
+        "TIME": 0.33,
+        "NAME": "Checkpoint 1 start"
+    },
+    {
+        "TIME": 12.92,
+        "NAME": "Checkpoint 4 first load"
+    },
+    {
+        "TIME": 12.92,
+        "NAME": "Checkpoint 4 full load"
+    },
+    {
+        "TIME": 40.108,
+        "NAME": "Checkpoint 3 first load"
+    },
+    {
+        "TIME": 40.108,
+        "NAME": "Checkpoint 3 full load"
+    },
+    {
+        "TIME": 42.135,
+        "NAME": "Checkpoint 2 first load"
+    },
+    {
+        "TIME": 42.135,
+        "NAME": "Checkpoint 2 full load"
+    },
+    {
+        "TIME": 73.298,
+        "NAME": "Checkpoint 5 first load"
+    },
+    {
+        "TIME": 73.298,
+        "NAME": "Checkpoint 5 full load"
+    },
+    {
+        "TIME": 86.016,
+        "NAME": "Checkpoint 4 first load"
+    },
+    {
+        "TIME": 86.016,
+        "NAME": "Checkpoint 4 full load"
+    },
+    {
+        "TIME": 90.354,
+        "NAME": "Checkpoint 1 first load"
+    },
+    {
+        "TIME": 90.354,
+        "NAME": "Checkpoint 1 full load"
+    },
+    {
+        "TIME": 109.383,
+        "NAME": "Checkpoint 2 start"
+    },
+    {
+        "TIME": 119.352,
+        "NAME": "Checkpoint 5 first load"
+    },
+    {
+        "TIME": 119.352,
+        "NAME": "Checkpoint 5 full load"
+    },
+    {
+        "TIME": 127.458,
+        "NAME": "Checkpoint 4 first load"
+    },
+    {
+        "TIME": 127.458,
+        "NAME": "Checkpoint 4 full load"
+    },
+    {
+        "TIME": 131.583,
+        "NAME": "Checkpoint 5 first load"
+    },
+    {
+        "TIME": 131.583,
+        "NAME": "Checkpoint 5 full load"
+    },
+    {
+        "TIME": 140.04,
+        "NAME": "Checkpoint 3 start"
+    },
+    {
+        "TIME": 170.095,
+        "NAME": "Checkpoint 4 start"
+    },
+    {
+        "TIME": 200.154,
+        "NAME": "Checkpoint 5 start"
+    }
+]
