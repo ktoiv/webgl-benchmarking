@@ -1,7 +1,7 @@
 import { Mesh, Matrix4,BufferGeometry, BufferAttribute, MeshStandardMaterial, Color, DoubleSide, Group } from "three"
 import { addFullObject, addMesh, addSimpleObject, hasFirstLoaded, markFullyLoaded, setFirstLoaded } from "../state/state-management";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { setFirstDecodedTime, setFirstLoadedTime, setFullyDecodedTime, setFullyLoadedTime, setStartDecodedTime } from "../state/timing-management";
+import { createMeshAddEvent, setFirstDecodedTime, setFirstLoadedTime, setFullyDecodedTime, setFullyLoadedTime, setStartDecodedTime } from "../state/timing-management";
 
 
 
@@ -21,6 +21,7 @@ const loadJsonUrlToTheScene = (checkpoint, urls, position, scene) => {
                     mesh.position.x += position.x;
                     mesh.position.z += position.z;
         
+                    createMeshAddEvent();
                     scene.add(mesh);
         
                     resolve();
@@ -164,6 +165,7 @@ const loadGlTFUrlsToTheScene = (checkpoint, urls, position, params, lodWorker, s
                 group.visible = false;
             }
 
+            createMeshAddEvent()
             scene.add(group);
             resolve()
         });

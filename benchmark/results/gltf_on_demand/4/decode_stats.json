@@ -1,0 +1,22 @@
+[
+    {
+        "checkpoint": 1,
+        "timeToFull": 6.634
+    },
+    {
+        "checkpoint": 2,
+        "timeToFull": 3.959
+    },
+    {
+        "checkpoint": 3,
+        "timeToFull": 7.193
+    },
+    {
+        "checkpoint": 4,
+        "timeToFull": 12.838
+    },
+    {
+        "checkpoint": 5,
+        "timeToFull": 26.921
+    }
+]

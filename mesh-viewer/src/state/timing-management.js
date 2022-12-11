@@ -74,6 +74,22 @@ const setFullyLoadedTime = checkpoint => {
     console.groupEnd();
 }
 
+
+const createMeshAddEvent = () => {
+
+    if (!benchmarkStart) return;
+
+    const time = Date.now();
+    const eventTime = time - benchmarkStart 
+
+    const event = {
+        TIME: eventTime / 1000,
+        NAME: `Add mesh`
+    }
+
+    events.push(event);
+}
+
 const setStartDecodedTime = checkpoint => {
 
     if (startDecodedTime.has(checkpoint)) return;
@@ -138,5 +154,6 @@ export {
     setStartDecodedTime,
     setFullyDecodedTime,
     getDecodeStats,
+    createMeshAddEvent
 }
 

@@ -7,7 +7,7 @@ import * as THREE from 'three';
 import { loadGlTFUrlsToTheScene, loadJsonUrlToTheScene } from "./utils/mesh-utils";
 import { getFullObject, getMesh, getSimpleObject, hasFullObject, hasSimpleObject, isFullyLoaded } from "./state/state-management";
 import { animateToCheckpoint } from "./utils/animation-utils";
-import { getDecodeStats, getEvents, getStats } from "./state/timing-management";
+import { getDecodeStats, getEvents, getStats, benchmarkStart } from "./state/timing-management";
 CameraControls.install({ THREE: THREE });
 
 
@@ -47,6 +47,7 @@ const init = () => {
     let seconds = 0;
     const results = []
 
+    let fpsIntervalId;
     const render = () => {
 
         const delta = clock.getDelta();
@@ -63,16 +64,19 @@ const init = () => {
     }
 
 
-    setInterval(() => {
-        seconds++;
-        const result = {
-            'TIME': seconds,
-            'FPS': fpsCounter
-        }
+    const startFPSCounter = () => {
+        fpsIntervalId = setInterval(() => {
+            const seconds = (Date.now() - benchmarkStart) / 1000
+            const result = {
+                'TIME': seconds,
+                'FPS': fpsCounter
+            }
+    
+            results.push(result);
+            fpsCounter = 0;
+        }, 1000);
+    }
 
-        results.push(result);
-        fpsCounter = 0;
-    }, 1000);
 
 
     const gui = new GUI({ width: 285 });
@@ -118,6 +122,8 @@ const init = () => {
         const promiseArray = [];
 
         benchmarkStart = Date.now()
+
+        startFPSCounter()
         for (let i = 1; i < 6; i++) {
 
 
@@ -260,6 +266,7 @@ const init = () => {
 
 
     const finish = () => {
+        clearInterval(fpsIntervalId)
         console.log('RESULTS', results)
         console.log('EVENTS', getEvents())
         console.log('STATS', getStats())

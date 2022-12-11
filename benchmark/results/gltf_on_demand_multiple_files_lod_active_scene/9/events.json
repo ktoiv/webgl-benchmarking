@@ -1,0 +1,142 @@
+[
+    {
+        "TIME": 0.366,
+        "NAME": "Checkpoint 1 start"
+    },
+    {
+        "TIME": 0.868,
+        "NAME": "Checkpoint 1 start decode"
+    },
+    {
+        "TIME": 1.274,
+        "NAME": "Checkpoint 1 first load"
+    },
+    {
+        "TIME": 1.274,
+        "NAME": "Add mesh"
+    },
+    {
+        "TIME": 5.68,
+        "NAME": "Checkpoint 1 full load"
+    },
+    {
+        "TIME": 5.68,
+        "NAME": "Checkpoint 1 full decoded"
+    },
+    {
+        "TIME": 5.68,
+        "NAME": "Add mesh"
+    },
+    {
+        "TIME": 30.384,
+        "NAME": "Checkpoint 2 start"
+    },
+    {
+        "TIME": 31.872,
+        "NAME": "Checkpoint 2 start decode"
+    },
+    {
+        "TIME": 35.701,
+        "NAME": "Checkpoint 2 first load"
+    },
+    {
+        "TIME": 35.701,
+        "NAME": "Checkpoint 2 full load"
+    },
+    {
+        "TIME": 35.701,
+        "NAME": "Checkpoint 2 full decoded"
+    },
+    {
+        "TIME": 35.701,
+        "NAME": "Add mesh"
+    },
+    {
+        "TIME": 36.722,
+        "NAME": "Add mesh"
+    },
+    {
+        "TIME": 60.385,
+        "NAME": "Checkpoint 3 start"
+    },
+    {
+        "TIME": 61.369,
+        "NAME": "Checkpoint 3 start decode"
+    },
+    {
+        "TIME": 62.91,
+        "NAME": "Checkpoint 3 first load"
+    },
+    {
+        "TIME": 62.91,
+        "NAME": "Add mesh"
+    },
+    {
+        "TIME": 66.876,
+        "NAME": "Checkpoint 3 full load"
+    },
+    {
+        "TIME": 66.877,
+        "NAME": "Checkpoint 3 full decoded"
+    },
+    {
+        "TIME": 66.877,
+        "NAME": "Add mesh"
+    },
+    {
+        "TIME": 90.445,
+        "NAME": "Checkpoint 4 start"
+    },
+    {
+        "TIME": 91.87,
+        "NAME": "Checkpoint 4 start decode"
+    },
+    {
+        "TIME": 96.687,
+        "NAME": "Checkpoint 4 first load"
+    },
+    {
+        "TIME": 96.687,
+        "NAME": "Add mesh"
+    },
+    {
+        "TIME": 104.274,
+        "NAME": "Checkpoint 4 full load"
+    },
+    {
+        "TIME": 104.274,
+        "NAME": "Checkpoint 4 full decoded"
+    },
+    {
+        "TIME": 104.274,
+        "NAME": "Add mesh"
+    },
+    {
+        "TIME": 123.452,
+        "NAME": "Checkpoint 5 start"
+    },
+    {
+        "TIME": 124.878,
+        "NAME": "Checkpoint 5 start decode"
+    },
+    {
+        "TIME": 126.264,
+        "NAME": "Checkpoint 5 first load"
+    },
+    {
+        "TIME": 126.264,
+        "NAME": "Add mesh"
+    },
+    {
+        "TIME": 146.617,
+        "NAME": "Checkpoint 5 full load"
+    },
+    {
+        "TIME": 146.617,
+        "NAME": "Checkpoint 5 full decoded"
+    },
+    {
+        "TIME": 146.617,
+        "NAME": "Add mesh"
+    }
+]
